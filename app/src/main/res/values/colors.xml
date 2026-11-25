@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Màu chủ đạo ứng dụng -->
+    <color name="primary">#1976D2</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="primary_light">#E3F2FD</color>
+
+    <!-- Màu trạng thái và cảnh báo -->
+    <color name="danger">#D32F2F</color>
+    <color name="danger_light">#FFEBEE</color>
+    <color name="danger_border">#FFCDD2</color>
+    <color name="success">#388E3C</color>
+    <color name="success_light">#E8F5E9</color>
+
+    <!-- Màu văn bản -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#9E9E9E</color>
+
+    <!-- Màu nền và viền -->
+    <color name="background">#F5F6F8</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="border">#E0E0E0</color>
+    <color name="input_bg">#FFFFFF</color>
+    <color name="button_secondary_bg">#EEEEEE</color>
+</resources>

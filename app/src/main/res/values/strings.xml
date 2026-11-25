@@ -1,0 +1,71 @@
+<resources>
+    <!-- Tên ứng dụng -->
+    <string name="app_name">Quản lý kho hàng</string>
+
+    <!-- Danh sách loại sản phẩm cho Spinner -->
+    <string-array name="categories_array">
+        <item>Điện tử</item>
+        <item>Thực phẩm</item>
+        <item>Văn phòng phẩm</item>
+        <item>Gia dụng</item>
+        <item>Khác</item>
+    </string-array>
+
+    <!-- Màn hình Đăng nhập (LoginActivity) -->
+    <string name="title_login">ĐĂNG NHẬP HỆ THỐNG</string>
+    <string name="subtitle_login">Quản lý kho hàng</string>
+    <string name="hint_username">Tên đăng nhập</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="btn_login">Đăng nhập</string>
+    <string name="error_empty_login">Vui lòng nhập đầy đủ tên đăng nhập và mật khẩu</string>
+    <string name="error_login_failed">Sai tên đăng nhập hoặc mật khẩu</string>
+
+    <!-- Màn hình Danh sách (MainActivity) -->
+    <string name="title_main">Quản lý kho hàng</string>
+    <string name="title_statistics">Thống kê kho hàng</string>
+    <string name="format_total_products">Tổng số sản phẩm: %d</string>
+    <string name="format_total_value">Tổng giá trị kho: %s đ</string>
+    <string name="format_low_stock_count">Sắp hết hàng: %d sản phẩm</string>
+    <string name="empty_product_list">Chưa có sản phẩm nào</string>
+    <string name="btn_add_product">Thêm sản phẩm</string>
+    <string name="format_item_price">%s đ</string>
+    <string name="format_item_quantity">SL: %d</string>
+    <string name="badge_low_stock">Sắp hết hàng</string>
+
+    <!-- Màn hình Thêm sản phẩm (AddProductActivity) -->
+    <string name="title_add_product">Thêm sản phẩm mới</string>
+    <string name="hint_name">Tên sản phẩm</string>
+    <string name="hint_price">Giá bán (VNĐ)</string>
+    <string name="hint_quantity">Số lượng</string>
+    <string name="label_category">Loại sản phẩm:</string>
+    <string name="switch_active">Đang kinh doanh</string>
+    <string name="hint_description">Mô tả (không bắt buộc)</string>
+    <string name="btn_save">Lưu sản phẩm</string>
+    <string name="error_empty_name">Tên sản phẩm không được để trống</string>
+    <string name="error_invalid_price">Giá bán phải lớn hơn 0</string>
+    <string name="error_invalid_quantity">Số lượng phải lớn hơn hoặc bằng 0</string>
+    <string name="toast_add_success">Đã thêm sản phẩm</string>
+    <string name="toast_add_failed">Thêm sản phẩm thất bại</string>
+
+    <!-- Màn hình Chi tiết sản phẩm (ProductDetailActivity) -->
+    <string name="title_product_detail">Chi tiết sản phẩm</string>
+    <string name="status_active">Đang kinh doanh</string>
+    <string name="status_inactive">Ngừng kinh doanh</string>
+    <string name="format_detail_price">Giá bán: %s đ</string>
+    <string name="format_detail_quantity">Số lượng tồn: %d</string>
+    <string name="format_detail_stock_value">Giá trị tồn kho: %s đ</string>
+    <string name="warning_low_stock">Cảnh báo: sắp hết hàng</string>
+    <string name="label_description">Mô tả chi tiết:</string>
+    <string name="no_description">Không có mô tả</string>
+    <string name="btn_import">Nhập thêm 1</string>
+    <string name="btn_sell">Bán 1</string>
+    <string name="btn_back">Quay lại</string>
+    <string name="btn_delete">Xóa sản phẩm</string>
+    <string name="toast_out_of_stock">Hết hàng</string>
+    <string name="toast_product_not_found">Không tìm thấy sản phẩm</string>
+    <string name="toast_delete_success">Đã xóa sản phẩm</string>
+    <string name="dialog_confirm_delete_title">Xác nhận xóa</string>
+    <string name="dialog_confirm_delete_message">Bạn có chắc muốn xóa sản phẩm này?</string>
+    <string name="dialog_action_delete">Xóa</string>
+    <string name="dialog_action_cancel">Hủy</string>
+</resources>
